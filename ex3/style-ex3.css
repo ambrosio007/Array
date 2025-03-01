@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #6291b8;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
 }
@@ -14,7 +14,7 @@ form {
     margin: 20px auto;
 }
 
-h1, h3 {
+h2 {
     text-align: center;
     color: #333;
 }
@@ -25,7 +25,6 @@ label {
     color: #555;
 }
 
-input[type="text"],
 input[type="number"] {
     width: calc(100% - 22px);
     padding: 10px;

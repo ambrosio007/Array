@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #6291b8;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
 }
@@ -10,26 +10,35 @@ form {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
+    max-width: 600px;
     margin: 20px auto;
 }
 
-h1, h3 {
+h2 {
     text-align: center;
     color: #333;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #555;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-input[type="text"],
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
 input[type="number"] {
     width: calc(100% - 22px);
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 8px;
+    margin: 5px 0;
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
@@ -43,16 +52,9 @@ input[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
+    margin-top: 15px;
 }
 
 input[type="submit"]:hover {
     background-color: #0056b3;
-}
-
-.resultados {
-    background-color: #e9ecef;
-    padding: 15px;
-    margin-top: 20px;
-    border-radius: 4px;
-    text-align: center;
 }
