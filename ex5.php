@@ -9,7 +9,7 @@
 <body>
     <form method="post">
         <label for="id_mes">Digite um número entre 1 e 12:</label>
-        <input type="number" name="numero_mes" id="is_mes" min="1" max="12" required>
+        <input type="number" name="numero_mes" id="is_mes" max="12" required>
         <br><br>
         <input type="submit" value="Mostrar mês">
         <br><br>
